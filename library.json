@@ -1,0 +1,6 @@
+{
+    "name": "AVR_ISP_Programmer",
+    "version": "0.1.0",
+    "description": "Architecture unaware library that tries to program AVR devices by ISP.",
+    "license": "Apache-2.0"
+  }
