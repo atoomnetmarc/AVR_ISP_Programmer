@@ -1,4 +1,8 @@
-**Experimental and incomplete. Do not use.**
+# Status
+
+Works for me.
+
+# What are this?
 
 Architecture unaware library that tries to program AVR devices by bit-banging ISP.
 
@@ -6,10 +10,16 @@ Used by: https://github.com/atoomnetmarc/lcd-network/tree/main/Firmware
 
 This library has been programmed specifically to be used with the limited resources of the ATmega48. It is also used on the ESP32-S2.
 
-Tested target devices:
-| device |
-| -- |
-| ATmega48 |
+Devices that program the target:
+| Source    | Working?  |
+| --        | --        |
+| ESP32-S2  | ☑️
+| ATmega48  | ☑️
+
+Target devices:
+| Target    | Working?  |
+| --        | --        |
+| ATmega48  | ☑️
 
 You must implement `RiscvEmulatorImplementationSpecific.h` for your architecture in your own project:
 
@@ -82,7 +92,5 @@ inline void AvrIspProgrammerDelayUs(double us) {
 }
 #endif
 ```
-
-
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
