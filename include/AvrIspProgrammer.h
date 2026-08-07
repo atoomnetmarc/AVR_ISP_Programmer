@@ -1,6 +1,6 @@
 /*
 
-Copyright 2024 Marc Ketel
+Copyright 2024-2026 Marc Ketel
 SPDX-License-Identifier: Apache-2.0
 
 */
